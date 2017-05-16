@@ -1,0 +1,48 @@
+/* Remove browser defaults */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #008000;
+}
+
+#header {
+    background-color: #ff0000;
+    width: 100%;
+    height: 125px;
+}
+
+#container {
+    width: 100%;
+    min-height: 625px;
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+#center {
+    background-color: #800080;
+    width: 34%;
+    min-width: 315px;
+}
+
+#left-side {
+    background-color: #0000ff;
+}
+
+#right-side {
+    background-color: #ffff00;
+}
+
+#footer {
+    background-color: #008000;
+    clear: both;
+    width: 100%;
+    min-height: 75px;
+}
