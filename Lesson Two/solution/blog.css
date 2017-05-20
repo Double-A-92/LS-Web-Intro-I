@@ -1,0 +1,137 @@
+* { /* Remove browser defaults */
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: #ffffff;
+    height: 100%;
+
+    font-family: Lora, 'Times New Roman', serif;
+    color: #333333;
+}
+
+header {
+    background: #1f0e38 url(img/header-astronaut.jpg) top center;
+    overflow: hidden;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+#top-bar {
+    padding: 20px;
+}
+
+#blog-title {
+    font-size: 12pt;
+    font-weight: 800;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+a.nav-item {
+    color: inherit;
+    text-decoration: none;
+    font-size: 9pt;
+    font-weight: 800;
+    float: left;
+    margin-left: 40px;
+}
+
+a.nav-item:hover {
+    color: #e6e6e6;
+}
+
+#article-header {
+    text-shadow: 2px 2px 4px #000000;
+    width: 750px;
+    margin: 120px auto;
+}
+
+#article-header > h1 {
+    font-size: 45pt;
+}
+
+#article-header > h2 {
+    font-size: 20pt;
+}
+
+#article-header > h3 {
+    font-size: 16pt;
+    font-family: Lora, "Times New Roman", serif;
+    margin-top: 30px;
+}
+
+article {
+    width: 750px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+article h1 {
+    font-size: 27pt;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section {
+    margin-top: 50px;
+}
+
+p {
+    font-size: 15pt;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+p.quote {
+    color: #777777;
+    font-style: italic;
+    font-size: 14pt;
+
+    background-color: #fafafa;
+    border-left: 5px solid #cccccc;
+
+    padding: 20px;
+}
+
+p.image {
+    color: #777777;
+    font-style: italic;
+    font-size: 11pt;
+    text-align: center;
+    line-height: 2;
+
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+footer {
+    color: #777777;
+    font-size: 11pt;
+
+    text-align: center;
+    padding: 50px;
+
+    border-top: 1px solid #cccccc;;
+}
+
+#social-buttons {
+    margin: auto;
+    width: 180px; /* This feels like a hack to me... */
+    overflow: hidden;
+}
+
+.social-button {
+    background-color: #333333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 30px 10px;
+    float: left;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 40px;
+}
