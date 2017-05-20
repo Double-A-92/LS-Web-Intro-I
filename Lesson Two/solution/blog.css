@@ -12,7 +12,7 @@ html, body {
 }
 
 header {
-    background: #1f0e38 url(img/header-astronaut.jpg) top center;
+    background: #1f0e38 url(img/header-astronaut.jpg) no-repeat top center;
     overflow: hidden;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #ffffff;
